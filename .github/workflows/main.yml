@@ -16,8 +16,8 @@ jobs:
       - name: Add remote 
         env:
           HF: ${{ secrets.HF }}
-        run: git remote add space https://sepidpy:$HF@huggingface.co/spaces/sepidpy/demo
+        run: git remote add space https://linanavas:$HF@huggingface.co/spaces/linanavas/demo
       - name: Push to hub
         env:
           HF: ${{ secrets.HF }}
-        run: git push --force https://sepidpy:$HF@huggingface.co/spaces/sepidpy/demo main
+        run: git push --force https://linanavas:$HF@huggingface.co/spaces/linanavas/demo main
