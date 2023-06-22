@@ -1,6 +1,6 @@
 ---
 title: Demo
-emoji: 😱
+emoji: 🍓
 colorFrom: purple
 colorTo: purple
 sdk: gradio
@@ -11,4 +11,4 @@ license: cc
 ---
 
 # hugging-face-demo
-[Try Text Summarization Here] (https://huggingface.co/spaces/linanavas/demo) 
+[Try Text Summarization Demo Here](https://huggingface.co/spaces/linanavas/demo/) 
