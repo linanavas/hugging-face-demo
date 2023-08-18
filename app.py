@@ -13,5 +13,5 @@ def predict(prompt):
 
 #demo.launch()
 
-with gr.Interface(fn=predict, inputs="text", outputs="text", title="Text Summarization") as iface:
+with gr.Interface(fn=predict, inputs="text", outputs="text", title="Text Summarization Holiii") as iface:
     iface.launch()
